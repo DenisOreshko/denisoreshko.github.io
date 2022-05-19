@@ -1,0 +1,1116 @@
+body{
+	box-sizing: border-box;
+	font-family: -apple-system, BlinkMacSystemFont,
+				 "Segoe UI","Roboto","Helvetica Neue", 
+				 Arial, sans-serif, "Apple Color Emoji", 
+				 "Segoe UI Emoji", "Segoe UI Symbol";
+	background-color: #C0C1C3;
+}
+main{
+	position:absolute;
+	margin-left: 5%;
+	margin-top: 20px;
+	width: 90%;
+	height: 960px;	
+	background-color: #FFFFFF
+}
+#container{
+	position:relative;
+	background-color: #FFFFFF;
+	width: 96%;
+	height: 910px;
+	margin-top: 20px;
+	margin-left: 2%;
+}
+#left_column{
+	position:relative;
+	display:inline-block; 
+	background-color: #202835;
+	color: #FFFFFF;
+	width: 35%;
+	height: 910px;
+	float: left;
+	border-radius:40px;	
+}
+#right_column{
+	position:relative;
+	display:inline-block; 
+	background-color: #FFFFFF;	
+	color: #202835;
+	width: 65%;
+	height: 800px;
+}
+footer{
+	background-color: #FFFFFF;
+}
+#avatar{ 
+	display:block;
+	height:190px;
+	border-radius:110px;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;	
+}
+#name{
+	margin-top: 40px;
+	text-align: center;
+	font-size: 32px;
+	font-weight: 500;
+}
+#profession{
+	text-align: center;
+	font-size: 20px;
+	
+	color: #F58C21;
+}
+#contact_article{
+	margin-top: 30px;	
+	font-size: 16px;
+	width: 80%;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+#contact_article h2{
+	text-align: center;
+	font-size: 18px;
+	font-weight: 500;
+}
+.line_article{
+	width: 100%;	
+}
+
+#about_article{
+	text-align: justify;
+    width: 85%;
+	margin-top: 20px;
+	margin-left:auto;
+	margin-right:auto;
+	font-size: 16px
+}
+#about_article h2{
+	display: block;
+	display: inline-block;
+	margin-left: 15px;
+	margin-top: 5px;
+	font-size: 18px;
+	font-weight: 500;
+}
+#skills_pro_article{
+	font-size: 16px;
+	width: 85%;
+	margin-top: 70px;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+#skills_pro_article h2{
+	display: block;
+	display: inline-block;
+	margin-left: 15px;
+	margin-top: 5px;
+	font-size: 18px;
+	text-align: center;
+	font-weight: 500;
+}
+#code_example_article{
+	width: 85%;
+	margin-top: 20px;
+	margin-left:auto;
+	margin-right:auto;
+	font-size: 16px;
+}
+#code_example_article h2{
+	display: block;
+	display: inline-block;
+	margin-left: 15px;
+	margin-top: 5px;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+#courses_article{
+	width: 85%;
+	margin-top: 20px;
+	margin-left:auto;
+	margin-right:auto;	
+}
+#courses_article h2{
+	display: block;
+	display: inline-block;
+	margin-left: 15px;
+	margin-top: 5px;
+	font-size: 18px;
+	font-weight: 500;
+}
+#languages_article{
+	width: 85%;
+	margin-top: 20px;
+	margin-left:auto;
+	margin-right:auto;	
+}
+#languages_article h2{
+	display: block;
+	display: inline-block;
+	margin-left: 15px;
+	margin-top: 5px;
+	font-size: 18px;
+	font-weight: 500;
+}
+#email{
+	font-size: 16px;
+}
+pre{
+  font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+  margin-bottom: 10px;
+  overflow: auto;
+  width: auto;
+  padding: 5px;
+  background-color: #eee;
+  width: 640px!ie7;
+  padding-bottom: 20px!ie7;
+  max-height: 600px;
+}
+.icon_article_h2{
+	display: block;
+	float: left;
+	padding-bottom: 5px;
+}
+.icon_contact{
+	display: block;
+	display: inline-block;
+	float: left;
+}
+.text_contact{
+	display: block;
+	display: inline-block;
+	margin-top: 7px;
+	margin-left: 10px;
+}
+.contact_section{
+	display: block;
+	margin-bottom: 1px;
+}
+#email_icon{
+	margin-left: 0%;
+	
+}
+@media (max-width: 1257px){
+	main{
+		height: 900px;
+		width: 96%;
+		margin-left: 2%;
+	}
+	#email{
+		font-size: 16px;
+	}
+	#right_column,#left_column,#container{
+		height: 860px;
+	}	
+}
+@media (max-width: 1220px){
+	main{
+		height: 900px;
+		width: 96%;
+		margin-left: 2%;
+	}
+	#email{
+		font-size: 16px;
+	}
+	#right_column,#left_column,#container{
+		height: 860px;
+	}	
+}
+@media (max-width: 1208px){
+	main{
+		height: 960px;
+		width: 96%;
+		margin-left: 2%;
+	}
+	#email{
+		font-size: 16px;
+	}
+	#left_column{
+		width: 31%;
+		height: 920px;
+	}
+	#right_column{
+		width: 69%;
+		height: 920px;
+	}
+	#container{
+		height: 940px;
+	}	
+}
+@media (max-width: 1185px){
+	main{
+		height: 960px;
+		width: 96%;
+		margin-left: 2%;
+	}
+	#email{
+		font-size: 16px;
+	}
+	#left_column{
+		width: 34%;
+		height: 920px;
+	}
+	#right_column{
+		width: 66%;
+		height: 920px;
+	}
+	#container{
+		height: 940px;
+	}	
+}
+@media (max-width: 1176px){
+	main{
+		height: 960px;
+		width: 96%;
+		margin-left: 2%;
+	}
+	#email{
+		font-size: 16px;
+	}
+	#left_column{
+		width: 38%;
+		height: 920px;
+	}
+	#right_column{
+		width: 62%;
+		height: 920px;
+	}
+	#container{
+		height: 940px;
+	}	
+}
+@media (max-width: 1110px){
+	main{
+		height: 960px;
+		width: 96%;
+		margin-left: 2%;
+	}
+	#email{
+		font-size: 16px;
+	}
+	#left_column{
+		width: 34%;
+		height: 920px;
+	}
+	#right_column{
+		width: 66%;
+		height: 920px;
+	}
+	#container{
+		height: 940px;
+	}	
+}
+@media (max-width: 1080px){
+	main{
+		height: 980px;
+		width: 96%;
+		margin-left: 2%;
+	}
+	#email{
+		font-size: 16px;
+	}
+	#left_column{
+		width: 38%;
+		height: 940px;
+	}
+	#right_column{
+		width: 62%;
+		height: 960px;
+	}
+	#container{
+		height: 960px;
+	}	
+}
+@media (max-width: 991px){
+	main{
+		height: 980px;
+		width: 96%;
+		margin-left: 2%;
+	}
+	#email{
+		font-size: 16px;
+	}
+	#left_column{
+		width: 38%;
+		height: 940px;
+	}
+	#right_column{
+		width: 62%;
+		height: 960px;
+	}
+	#container{
+		height: 960px;
+	}	
+}
+@media (max-width: 964px){
+	main{
+		height: 1000px;
+		width: 98%;
+		margin-left: 1%;
+	}
+	#email{
+		font-size: 16px;
+	}
+	#left_column{
+		width: 39%;
+		height: 960px;
+	}
+	#right_column{
+		width: 61%;
+		height: 960px;
+	}	
+}
+@media (max-width: 925px){
+	main{
+		height: 1060px;
+		width: 100%;
+		margin-left: 0%;
+	}
+	#email{
+		font-size: 14px;
+	}
+
+	#left_column{
+		width: 39%;
+		height: 1020px;
+	}
+	#right_column{
+		width: 61%;
+		height: 980px;
+	}	
+}
+@media (max-width: 824px){
+	main{
+		height: 1180px;
+		width: 100%;
+		margin-left: 0%;
+		margin-top: 0%;
+	}
+	#left_column{
+		height: 1120px;
+		width: 44%;
+	}
+	#right_column{
+		height: 1020px;
+		width: 56%;
+	}
+	section#skills_pro{
+		margin-top: 100px;
+	}
+	#email{
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 780px){
+	main{
+		height: 1220px;
+		width: 96%;
+		margin-left: 2%;
+	}
+	#email{
+		font-size: 14px;
+	}
+
+	#left_column{
+		height: 1180px;
+	}
+	#right_column{
+		height: 1060px;
+	}
+	section#skills_pro{
+		margin-top: 100px;
+	}
+	
+}
+@media (max-width: 770px){
+	main{
+		height: 1160px;
+		width: 98%;
+		margin-left: 1%;
+	}
+
+	#email{
+		font-size: 12px;
+	}
+	#left_column{
+		height: 1120px;
+		width: 38%;
+	}
+	#right_column{
+		height: 1040px;
+		width: 62%;
+	}	
+}
+@media (max-width: 745px){
+	main{
+		height: 1160px;
+		width: 98%;
+		margin-left: 1%;
+	}
+
+	#email{
+		font-size: 12px;
+	}
+	#left_column{
+		height: 1120px;
+		width: 39%;
+	}
+	#right_column{
+		height: 1040px;
+		width: 61%;
+	}	
+}
+@media (max-width: 736px){
+	main{
+		height: 1200px;
+		width: 100%;
+		margin-left: 0%;
+	}
+	#container{
+		height: 1300px;
+	}
+	#container{
+		height: 1130px;
+	}
+	#left_column{
+		height: 1160px;
+		width: 44%;
+	}
+	#right_column{
+		height: 1130px;
+		width: 56%;
+	}
+	#email{
+		font-size: 14px;
+	}
+}
+@media (max-width: 715px){
+	main{
+		height: 1200px;
+		width: 100%;
+		margin-left: 0%;
+	}
+	#container{
+		height: 1300px;
+	}
+	#container{
+		height: 1130px;
+	}
+	#left_column{
+		height: 1160px;
+		width: 45%;
+	}
+	#right_column{
+		height: 1130px;
+		width: 55%;
+	}
+	#email{
+		font-size: 14px;
+	}
+}
+@media (max-width: 700px){
+	main{
+		height: 1200px;
+		width: 100%;
+		margin-left: 0%;
+	}
+	#container{
+		height: 1300px;
+	}
+	#container{
+		height: 1130px;
+	}
+	#left_column{
+		height: 1160px;
+		width: 46%;
+	}
+	#right_column{
+		height: 1130px;
+		width: 54%;
+	}
+	#email{
+		font-size: 14px;
+	}
+}
+@media (max-width: 685px){
+	main{
+		height: 1280px;
+		width: 100%;
+		margin-left:0%;
+	}
+	#container{
+		height: 1260px;
+	}
+	#left_column{
+		height: 1240px;
+		width: 48%;
+
+	}	
+	#right_column{
+		height: 1200px;
+		width: 52%;
+	}
+	#email{
+		font-size: 14px;
+	}
+	#email_icon{
+		margin-left: 0%;
+		
+	}
+}
+@media (max-width: 655px){
+	main{
+		height: 1320px;
+		width: 100%;
+		margin-left:0%;
+	}
+	#container{
+		height: 1260px;
+	}
+	#left_column{
+		height: 1280px;
+		width: 49%;
+
+	}	
+	#right_column{
+		height: 1200px;
+		width: 51%;
+	}
+	#email{
+		font-size: 14px;
+	}
+	#email_icon{
+		margin-left: 0%;
+		
+	}
+}
+@media (max-width: 641px){
+	main{
+		height: 1280px;
+		width: 100%;
+		margin-left: 0%;
+		margin-top: 0%;
+	}
+	#container{
+		height: 1204px;
+	}
+	#left_column{
+		width: 40%;
+		height: 1240px;
+	}
+	
+	#right_column{
+		width: 60%;
+		height: 1200px;
+	}
+	#email{
+		font-size: 10px;
+	}
+}
+@media (max-width: 600px){
+	main{
+		height: 1300px;
+		width:100%;
+		margin-left: 0%;
+	}
+	#container{
+		height: 1240px;
+	}
+	#left_column{
+		width: 40%;
+		height: 1240px;
+	}
+	
+	#right_column{
+		width: 60%;
+		height: 1200px;
+	}
+	#email{
+		font-size: 13px;
+	}
+	#email_icon{
+		margin-left: 40%;		
+	}
+
+}
+@media (max-width: 570px){
+	main{
+		height: 1320px;
+		width: 100%;
+		margin-top: 0%;
+		margin-left: 0%;
+	}
+	#container{
+		height: 1260px;
+	}
+	#left_column{
+		width: 40%;
+		height: 1260px;
+	}
+	
+	#right_column{
+		width: 60%;
+		height: 1260px;
+	}
+	#email{
+		font-size: 12px;
+	}
+	#email_icon{
+		margin-left: 40%;		
+	}
+
+}
+@media (max-width: 541px){
+	main{
+		margin-top: 0%;
+		width: 100%;
+		margin-left: 0%;
+	}
+	#email{
+		font-size: 18px;
+	}
+
+	#left_column{
+		width: 100%;
+		height: 840px;
+		width: 88%;
+		margin-left: 6%;
+		margin-right: auto;
+		margin-top: 2%;
+	}
+	#right_column{
+		width: 100%;
+		height: 1020px;
+
+	}
+	#container{
+		margin-top: 0%;
+		margin-left: 0%;
+		width: 100%;
+	}
+	section#skills_pro{
+		margin-top: 70px;
+	}
+	#email_icon{
+		margin-left: 0%;		
+	}
+}
+@media (max-width: 470px){
+	main{
+		margin-top: 0%;
+		width: 100%;
+		margin-left: 0%;
+	}
+	#email{
+		font-size: 18px;
+	}
+
+	#left_column{
+		width: 100%;
+		height: 840px;
+		width: 88%;
+		margin-left: 6%;
+		margin-right: auto;
+		margin-top: 2%;
+	}
+	#right_column{
+		width: 100%;
+		height: 1100px;
+
+	}
+	#container{
+		margin-top: 0%;
+		margin-left: 0%;
+		width: 100%;
+	}
+	section#skills_pro{
+		margin-top: 70px;
+	}
+	#email_icon{
+		margin-left: 0%;		
+	}
+}
+@media (max-width: 426px){
+	main{
+		margin-top: 0%;
+		width: 100%;
+		margin-left: 0%;
+	}
+	#email{
+		font-size: 16px;
+	}
+
+	#left_column{
+		width: 100%;
+		height: 860px;
+		width: 90%;
+		margin-left: 5%;
+		margin-right: auto;
+		margin-top: 2%;
+	}
+	#right_column{
+		width: 100%;
+		height: 1120px;
+
+	}
+	#container{
+		margin-top: 0%;
+		margin-left: 0%;
+		width: 100%;
+	}
+	section#skills_pro{
+		margin-top: 70px;
+	}
+	#email_icon{
+		margin-left: 0%;		
+	}
+}
+@media (max-width: 400px){
+	main{
+		margin-top: 0%;
+		width: 100%;
+		margin-left: 0%;
+	}
+	#email{
+		font-size: 16px;
+	}
+
+	#left_column{
+		width: 100%;
+		height: 860px;
+		width: 90%;
+		margin-left: 5%;
+		margin-right: auto;
+		margin-top: 2%;
+	}
+	#right_column{
+		width: 100%;
+		height: 1180px;
+
+	}
+	#container{
+		margin-top: 0%;
+		margin-left: 0%;
+		width: 100%;
+	}
+	section#skills_pro{
+		margin-top: 70px;
+	}
+	#email_icon{
+		margin-left: 0%;		
+	}
+}
+@media (max-width: 383px){
+	main{
+		margin-top: 0%;
+		height: 1300px;
+		width: 100%;
+		margin-left: 0%;
+	}
+	#email{
+		font-size: 16px;
+	}
+
+	#left_column{
+		width: 100%;
+		height: 890px;
+		width: 94%;
+		margin-left: 3%;
+		margin-right: auto;
+		margin-top: 2%;
+	}
+	#right_column{
+		width: 100%;
+		height: 1180px;
+
+	}
+	#container{
+		margin-top: 0%;
+		margin-left: 0%;
+		width: 100%;
+	}
+	section#skills_pro{
+		margin-top: 70px;
+	}
+	#email_icon{
+		margin-left: 0%;		
+	}
+}
+@media (max-width: 360px){
+	main{
+		margin-top: 0%;
+		height: 1300px;
+		width: 100%;
+		margin-left: 0%;
+	}
+	#email{
+		font-size: 16px;
+	}
+
+	#left_column{
+		width: 100%;
+		height: 890px;
+		width: 96%;
+		margin-left: 2%;
+		margin-right: auto;
+		margin-top: 2%;
+	}
+	#right_column{
+		width: 100%;
+		height: 1180px;
+
+	}
+	#container{
+		margin-top: 0%;
+		margin-left: 0%;
+		width: 100%;
+	}
+	section#skills_pro{
+		margin-top: 70px;
+	}
+	#email_icon{
+		margin-left: 0%;		
+	}
+}
+@media (max-width: 352px){
+	main{
+		margin-top: 0%;
+		height: 1300px;
+		width: 100%;
+		margin-left: 0%;
+	}
+	#email{
+		font-size: 16px;
+	}
+
+	#left_column{
+		height: 860px;
+		width: 98%;
+		margin-left: 1%;
+		margin-right: auto;
+		margin-top: 2%;
+	}
+	#right_column{
+		width: 100%;
+		height: 1210px;
+
+	}
+	#container{
+		margin-top: 0%;
+		margin-left: 0%;
+		width: 100%;
+	}
+	section#skills_pro{
+		margin-top: 70px;
+	}
+	#email_icon{
+		margin-left: 0%;		
+	}
+}
+@media (max-width: 345px){
+	main{
+		margin-top: 0%;
+		height: 1300px;
+		width: 100%;
+		margin-left: 0%;
+	}
+	#email{
+		font-size: 14px;
+	}
+
+	#left_column{
+		height: 860px;
+		width: 98%;
+		margin-left: 1%;
+		margin-right: auto;
+		margin-top: 2%;
+	}
+	#right_column{
+		width: 100%;
+		height: 1280px;
+
+	}
+	#container{
+		margin-top: 0%;
+		margin-left: 0%;
+		width: 100%;
+	}
+	section#skills_pro{
+		margin-top: 70px;
+	}
+	#email_icon{
+		margin-left: 0%;		
+	}
+}
+@media (max-width: 321px){
+	main{
+		height: 1530px;
+		width: 100%;
+		margin-left: 0%;
+		margin-top: 0%;
+	}
+	#email{
+		font-size: 14px;
+	}
+	#left_column{
+		height: 890px;
+		width: 98%;
+		margin-left: 1%;
+		margin-right: auto;
+		margin-top: 2%;
+	}
+	#right_column{
+		width: 100%;
+		height: 1270px;
+
+	}
+	#container{
+		margin-top: 0%;
+		margin-left: 0%;
+		width: 100%;
+	}
+	section#skills_pro{
+		margin-top: 70px;
+	}
+	#email_icon{
+		margin-left: 0%;
+		
+	}
+}
+@media (max-width: 315px){
+	main{
+		height: 1530px;
+		width: 100%;
+		margin-left: 0%;
+		margin-top: 0%;
+	}
+	#email{
+		font-size: 14px;
+	}
+	#left_column{
+		height: 890px;
+		width: 98%;
+		margin-left: 1%;
+		margin-right: auto;
+		margin-top: 2%;
+	}
+	#right_column{
+		width: 100%;
+		height: 1270px;
+
+	}
+	#container{
+		margin-top: 0%;
+		margin-left: 0%;
+		width: 100%;
+	}
+	section#skills_pro{
+		margin-top: 70px;
+	}
+	#email_icon{
+		margin-left: 0%;		
+	}
+}
+@media (max-width: 309px){
+	main{
+		height: 1530px;
+		width: 100%;
+		margin-left: 0%;
+		margin-top: 0%;
+	}
+	#email{
+		font-size: 12px;
+	}
+	#left_column{
+		height: 890px;
+		width: 98%;
+		margin-left: 1%;
+		margin-right: auto;
+		margin-top: 2%;
+	}
+	#right_column{
+		width: 100%;
+		height: 1320px;
+
+	}
+	#container{
+		margin-top: 0%;
+		margin-left: 0%;
+		width: 100%;
+	}
+	section#skills_pro{
+		margin-top: 70px;
+	}
+	#email_icon{
+		margin-left: 0%;		
+	}
+}
+@media (max-width: 281px){
+	main{
+		margin-top: 0%;
+		height: 1530px;
+		width: 100%;
+		margin-left: 0%;
+	}
+	#email{
+		font-size: 12px;
+	}
+	#left_column{
+		width: 100%;
+		height: 830px;
+		width: 100%;
+		margin-left: 0%;
+		margin-top: 0%;
+	}
+	#right_column{
+		width: 100%;
+		height: 1380px;
+
+	}
+	#container{
+		margin-top: 0%;
+		margin-left: 0%;
+		width: 100%;
+	}
+	section#skills_pro{
+		margin-top: 70px;
+	}
+}
+
+@media (max-width: 268px){
+	main{
+		margin-top: 0%;
+		height: 1530px;
+		width: 100%;
+		margin-left: 0%;
+	}
+	#email{
+		font-size: 12px;
+	}
+	#left_column{
+		width: 100%;
+		height: 860px;
+		width: 100%;
+		margin-left: 0%;
+		margin-top: 0%;
+	}
+	#right_column{
+		width: 100%;
+		height: 1400px;
+
+	}
+	#container{
+		margin-top: 0%;
+		margin-left: 0%;
+		width: 100%;
+	}
+	section#skills_pro{
+		margin-top: 70px;
+	}
+}
