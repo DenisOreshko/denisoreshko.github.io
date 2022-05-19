@@ -38,7 +38,7 @@ main{
 	background-color: #FFFFFF;	
 	color: #202835;
 	width: 65%;
-	height: 800px;
+	height: 820px;
 }
 footer{
 	background-color: #FFFFFF;
@@ -127,6 +127,14 @@ footer{
 	margin-top: 5px;
 	font-size: 18px;
 	font-weight: 500;
+}
+#code_example_article a{
+       text-decoration: none;
+       color: #646464;
+}
+#code_example_article a:hover{
+       color: #ff8c00; 
+       text-decoration:underline;
 }
 
 #courses_article{
